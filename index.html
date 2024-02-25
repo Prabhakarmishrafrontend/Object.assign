@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assign</title>
+</head>
+<body>
+    <h3>Object.assign</h3>
+    <p>Object.assign is used for merging two objects as one.</p>
+
+    <script>
+          const data = {
+            id : 1203,
+            name : "Ram Kumar Sharma",
+            rank : "Weldor grade - 2",
+            salary : 35200,
+            pwd : "RKsharma@1203@0236"
+        }
+
+        const complain = {
+            complainId : 25632288964574
+        }
+
+        const allData = Object.assign(data, complain);
+        console.log(allData);
+    </script>
+</body>
+</html>
